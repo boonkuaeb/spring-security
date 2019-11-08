@@ -1,9 +1,17 @@
 package com.frankmoley.security.app;
 
 import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.provisioning.InMemoryUserDetailsManager;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Configurable
 @EnableWebSecurity
@@ -17,5 +25,15 @@ public class ApplicationSecurityConfiguration extends WebSecurityConfigurerAdapt
                .anyRequest().authenticated()
                .and()
                .httpBasic();
+    }
+
+    @Override
+    @Bean
+    public UserDetailsService userDetailsService() {
+        List<UserDetails> users = new ArrayList<>();
+        users.add(User.withDefaultPasswordEncoder().username("bk").password("password").roles("USER","ADMIN").build());
+        users.add(User.withDefaultPasswordEncoder().username("nam").password("password").roles("USER","ADMIN").build());
+
+        return new InMemoryUserDetailsManager(users);
     }
 }
