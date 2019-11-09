@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5862032-314e-496f-b70b-869664c7f3ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroupRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/ApplicationSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/ApplicationSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/GuestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/GuestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guest-app/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/src/main/resources/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/ApplicationSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/ApplicationSecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/GuestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/GuestController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/auth/LandonUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/auth/LandonUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/auth/LandonUserPrincipal.class" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/target/classes/com/frankmoley/security/app/auth/LandonUserPrincipal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/target/classes/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/target/classes/data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guest-app/target/classes/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/guest-app/target/classes/schema.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/guest-services/target/" />
     <ignored path="$PROJECT_DIR$/guest-app/target/" />
@@ -25,8 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="226">
+              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/GuestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -34,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserPrincipal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-38">
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -43,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/ApplicationSecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="132">
+              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +77,52 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guest-app/src/main/resources/data.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="114" selection-start-line="1" selection-start-column="114" selection-end-line="1" selection-end-column="114" />
+            <state relative-caret-position="154">
+              <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroup.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="19" />
+              <folding>
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#469#470#0" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#687#688#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#769#770#0" expanded="true" />
+                <element signature="e#811#812#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroupRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/guest-app/src/main/resources/schema.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -81,10 +147,15 @@
         <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/UserRepository.java" />
         <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LondonUserDetailService.java" />
         <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LondonUserPrinciple.java" />
-        <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java" />
         <option value="$PROJECT_DIR$/guest-app/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/guest-app/pom.xml" />
+        <option value="$PROJECT_DIR$/guest-app/src/main/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroupRepository.java" />
+        <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserPrincipal.java" />
+        <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/GuestController.java" />
         <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/ApplicationSecurityConfiguration.java" />
+        <option value="$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroup.java" />
         <option value="$PROJECT_DIR$/guest-app/src/main/resources/data.sql" />
       </list>
     </option>
@@ -362,9 +433,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guest-app/src/main/resources/schema.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LondonUserPrinciple.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
@@ -408,34 +476,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java">
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroupRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/ApplicationSecurityConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="31" column="52" lean-forward="true" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="138">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserPrincipal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/LandonUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/GuestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/ApplicationSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/java/com/frankmoley/security/app/auth/AuthGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="19" />
+          <folding>
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#687#688#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#769#770#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guest-app/src/main/resources/schema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/guest-app/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="114" selection-start-line="1" selection-start-column="114" selection-end-line="1" selection-end-column="114" />
+        <state relative-caret-position="154">
+          <caret line="7" column="62" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="62" />
         </state>
       </provider>
     </entry>
