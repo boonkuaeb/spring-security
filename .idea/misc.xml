@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/guest-app/pom.xml" />
         <option value="$PROJECT_DIR$/guest-services/pom.xml" />
+        <option value="$PROJECT_DIR$/sample-ldap-app/pom.xml" />
+        <option value="$PROJECT_DIR$/ldap-server/pom.xml" />
+        <option value="$PROJECT_DIR$/guest-ldap-app/pom.xml" />
       </list>
     </option>
   </component>

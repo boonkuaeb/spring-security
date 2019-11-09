@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.frankmoley.security</groupId>
-	<artifactId>guest-app</artifactId>
+	<artifactId>guest-ldap-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>guest-app</name>
+	<name>guest-ldap-app</name>
 	<description>Web application for guest</description>
 
 	<parent>
